@@ -45,4 +45,14 @@ class BinaryTree:
         return False
 
 
+bst = BinaryTree()
 
+bst.insert(5)
+bst.insert(2)
+bst.insert(8)
+bst.insert(1)
+bst.insert(3)
+
+print(bst.search(5))
+print(bst.search(3)) 
+print(bst.search(11))
